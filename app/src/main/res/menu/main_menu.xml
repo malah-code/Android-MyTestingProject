@@ -8,6 +8,8 @@
                 android:title="@string/create_new" />
             <item android:id="@+id/open"
                 android:title="@string/open" />
+            <item android:id="@+id/mnuFragments"
+                android:title="@string/Fragmenrs" />
         </menu>
     </item>
 </menu>

@@ -19,7 +19,7 @@
         <activity
             android:name=".TestingItemListActivity"
             android:label="@string/title_testingitem_list"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TestingItemDetailActivity"
             android:label="@string/title_testingitem_detail"
@@ -29,7 +29,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ca.windmobile.mytestingprojects.mytestingproject.TestingItemListActivity" />
         </activity>
-        <activity android:name=".TestDelete"></activity>
+        <activity android:name=".TestDelete" />
+        <activity android:name=".FragmentTest"></activity>
     </application>
 
 </manifest>

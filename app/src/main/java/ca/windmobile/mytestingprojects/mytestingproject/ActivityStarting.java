@@ -122,6 +122,16 @@ public class ActivityStarting extends AppCompatActivity {
                 return false;
             }
         });
+
+        menu.findItem(R.id.mnuFragments).setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                Context context = getApplicationContext();
+                Intent intent = new Intent( context , FragmentTest.class);
+                startActivity(intent);
+                return false;
+            }
+        });
         return true;
     }
 
