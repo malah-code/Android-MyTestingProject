@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyTestingProject</string>
+    <string name="save">Save</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="title_testingitem_list">TestingItem</string>
+    <string name="title_testingitem_detail">TestingItem Detail</string>
+    <string name="Notes">notes</string>
+    <string name="create_new">Create</string>
+    <string name="open">Open</string>
+    <string name="delete">Delete</string>
+    <string name="mnuDelete">Delete</string>
+</resources>
